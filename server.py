@@ -1,7 +1,7 @@
 import os
 from flask import Flask, render_template, request, redirect, session
 from urllib2 import Request, urlopen, URLError
-# import requests
+import requests
 
 app = Flask(__name__)
 
